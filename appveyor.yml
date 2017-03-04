@@ -4,5 +4,7 @@ environment:
 install:
   - "%PYTHON% -m pip install -r requirements.txt"
 
+build: off
+
 test_script:
   - "%PYTHON% -m pytest -v"
