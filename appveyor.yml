@@ -1,1 +1,8 @@
-# TODO
+environment:
+  - PYTHON: "C:\\Python36"
+
+install:
+  - "%PYTHON% -m pip install -r requirements.txt"
+
+test_script:
+  - "%PYTHON% -m pytest -v"
